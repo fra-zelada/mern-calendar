@@ -1,5 +1,5 @@
 import Swal from "sweetalert2";
-import { fetchConToken, fetchSinToken } from "../components/helpers/fetch"
+import { fetchConToken, fetchSinToken } from "../helpers/fetch"
 import { types } from "../types/types";
 import { eventLogout } from "./events";
 

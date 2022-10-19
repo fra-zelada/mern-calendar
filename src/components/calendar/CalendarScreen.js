@@ -4,7 +4,7 @@ import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 import 'moment/locale/es';
 import 'react-big-calendar/lib/css/react-big-calendar.css'
-import { messages } from '../helpers/calendar-messages'
+import { messages } from '../../helpers/calendar-messages'
 import { CalendarEvent } from './CalendarEvent';
 import { CalendarModal } from './CalendarModal';
 import { useDispatch } from 'react-redux';

@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
-import { fetchConToken } from "../components/helpers/fetch";
-import { prepareEvents } from "../components/helpers/prepareEvents";
+import { fetchConToken } from "../helpers/fetch";
+import { prepareEvents } from "../helpers/prepareEvents";
 import { types } from "../types/types";
 
 export const eventStartAddNew = ( event ) => {
